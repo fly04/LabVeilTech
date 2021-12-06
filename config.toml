@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://fly04.github.io/LabVeilTech/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
