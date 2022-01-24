@@ -1,4 +1,4 @@
-baseurl = "localhost"
+baseurl = "https://fly04.github.io/"
 languageCode = "ch-fr"
 theme = "terminal"
 title="Louka Najjar"
