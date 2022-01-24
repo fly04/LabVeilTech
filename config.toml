@@ -1,6 +1,7 @@
-baseurl = "https://fly04.github.io/LabVeilTech/"
-languageCode = "en-us"
+baseurl = "localhost"
+languageCode = "ch-fr"
 theme = "terminal"
+title="Louka Najjar"
 paginate = 5
 tags = [ "ThreeJs", "A-Frame", "Unity", "Voxels", "LowPoly", "Jeux-vidéos", "News", "Social", "WebXR", "UX", "Développement", "Design", "Ressource", "Marketing", "Interaction", "Web"  ]
 categories = [ "Études de cas", "Tutoriels", "Technologies", "Outils", "Hardware"]
@@ -47,29 +48,25 @@ categories = [ "Études de cas", "Tutoriels", "Technologies", "Outils", "Hardwar
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Louka Najjar"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
     copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
+    menuMore = "Voir plus"
+    readMore = "Lire plus"
+    readOtherPosts = "Lire d'autres articles"
+    newerPosts = "Articles plus récents"
+    olderPosts = "Articles plus anciens"
     missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    missingBackButtonLabel = "Retour à l'accueil"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Louka Najjar"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        name = "À propos"
+        url = "/pages/about"

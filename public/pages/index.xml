@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Louka Najjar</title>
+    <link>localhost/pages/</link>
+    <description>Recent content in Pages on Louka Najjar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch-fr</language>
+    <lastBuildDate>Mon, 24 Jan 2022 15:46:07 +0100</lastBuildDate><atom:link href="localhost/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>localhost/pages/about/</link>
+      <pubDate>Mon, 24 Jan 2022 15:46:07 +0100</pubDate>
+      
+      <guid>localhost/pages/about/</guid>
+      <description>asdmaskdmasdmasmd</description>
+      <content>&lt;p&gt;asdmaskdmasdmasmd&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
