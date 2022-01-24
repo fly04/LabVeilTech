@@ -1,0 +1,106 @@
+<!doctype html><html lang=en>
+<head>
+<title>glTF, aka JPEG de la 3D :: Louka Najjar</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Un format taillé pour les besoins actuels À chaque type d&amp;rsquo;utilisation son format de fichier et la 3D ne déroge pas à cette règle. Encore méconnu du grand public, le glTF (GL Transmission Format) est un format de fichier open-source de scènes et modèles 3D basé sur le format JSON. Si ce format n&amp;rsquo;a pas été crée expressément pour la réalité virtuelle, son utilisation en parallèle de l&amp;rsquo;API WebXR semble paraître une évidence.">
+<meta name=keywords content=",">
+<meta name=robots content="noodp">
+<link rel=canonical href=localhost/posts/gltf/>
+<link rel=stylesheet href=localhost/assets/style.css>
+<link rel=stylesheet href=localhost/assets/green.css>
+<link rel=apple-touch-icon href=localhost/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=localhost/img/favicon/green.png>
+<meta name=twitter:card content="summary">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="article">
+<meta property="og:title" content="glTF, aka JPEG de la 3D">
+<meta property="og:description" content="Un format taillé pour les besoins actuels À chaque type d&amp;rsquo;utilisation son format de fichier et la 3D ne déroge pas à cette règle. Encore méconnu du grand public, le glTF (GL Transmission Format) est un format de fichier open-source de scènes et modèles 3D basé sur le format JSON. Si ce format n&amp;rsquo;a pas été crée expressément pour la réalité virtuelle, son utilisation en parallèle de l&amp;rsquo;API WebXR semble paraître une évidence.">
+<meta property="og:url" content="localhost/posts/gltf/">
+<meta property="og:site_name" content="Louka Najjar">
+<meta property="og:image" content="localhost">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:published_time" content="2022-01-24 16:20:07 +0100 +0100">
+</head>
+<body class=green>
+<div class="container center headings--one-size">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+Louka Najjar
+</div>
+</a>
+</div>
+<div class=menu-trigger>menu</div>
+</div>
+<nav class=menu>
+<ul class="menu__inner menu__inner--desktop">
+<li><a href=localhost/pages/about>À propos</a></li>
+</ul>
+<ul class="menu__inner menu__inner--mobile">
+<li><a href=localhost/pages/about>À propos</a></li>
+</ul>
+</nav>
+</header>
+<div class=content>
+<div class=post>
+<h1 class=post-title>
+<a href=localhost/posts/gltf/>glTF, aka JPEG de la 3D</a></h1>
+<div class=post-meta>
+<span class=post-date>
+2022-01-24
+</span>
+</div>
+<span class=post-tags>
+#<a href=localhost/tags/></a>&nbsp;
+#<a href=localhost/tags/></a>&nbsp;
+</span>
+<div class=post-content><div>
+<h2 id=un-format-taillé-pour-les-besoins-actuels>Un format taillé pour les besoins actuels<a href=#un-format-taillé-pour-les-besoins-actuels class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>À chaque type d&rsquo;utilisation son format de fichier et la 3D ne déroge pas à cette règle. Encore méconnu du grand public, le glTF (GL Transmission Format) est un format de fichier open-source de scènes et modèles 3D basé sur le format JSON. Si ce format n&rsquo;a pas été crée expressément pour la réalité virtuelle, son utilisation en parallèle de l&rsquo;API WebXR semble paraître une évidence. Il a pour avantage d&rsquo;être API-agonistique ce qui lui confère une grande flexibilité. Dans un contexte web, il peut donc être utilisé avec par exemple des framework tel que A-FRAME.</p>
+<p>Son utilisation est grandissante et de plus en plus d&rsquo;acteurs importants de l&rsquo;industrie tels que Google ou Facebook l&rsquo;adoptent au fil des années. Son succès repose sur une taille réduite permettant des chargements très rapide, le fait d&rsquo;être API-agnostique et sa capacité a représenter l&rsquo;intégralité d&rsquo;une scène 3D. Godot, un moteur de jeu au succès grandissant, souhaite voir le glTF devenir le format standard d&rsquo;échange de ressources pour le développement de jeux, mettant en avant les avantages cités précédemment mais également le fait qu&rsquo;il soit basé sur le JSON ce qui permet une grande lisibilité, l&rsquo;absence de de données redondantes et sa modernité, le glTF lui-même supportant les dernières technologies utilisées dans la modélisation 3D.</p>
+<h2 id=une-nécessité-pour-les-technologies-daujourdhui>Une nécessité pour les technologies d&rsquo;aujourd&rsquo;hui<a href=#une-nécessité-pour-les-technologies-daujourdhui class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Avant sa création en 2015, les deux formats de fichiers 3D dominants et principalement utilisés dans des contextes de modélisation 3D et de moteurs de jeu 3D étaient FBX et OBJ mais ceux-ci présentaient des contraintes que le glTF a voulu dépasser. Par exemple, le format FBX est un format propriétaire et nécessite un lourd SDK C++ pour être chargé, le rendant quasiment impossible à afficher directement sur un navigateur web. De son côté, OBJ présente comme défaut d&rsquo;être un format très lourd en terme de stockage et donc très lent à être chargé sur le web.</p>
+<p>Qu&rsquo;est-ce qu&rsquo;il se cache derrière ce format? En réalité, un fichier .gltf est écrit en JSON et va simplement référencer d&rsquo;autres fichiers comme par exemple des textures et des formes géométriques 3D.</p>
+<p><img src=https://www.khronos.org/assets/uploads/apis/2020-core-gltf-2-0-asset-structure.jpg alt>
+<em>Construction d&rsquo;un fichier .gltf</em></p>
+<p>Depuis 2017, le glTF en est à sa deuxième version et est depuis accompagné par le format GLB qui est sa forme binaire et qui a pour différence d&rsquo;intégrer directement les textures au lieu de faire le lien vers des fichiers externes. Cinq ans après, le monde de la 3D a évolué et semble être en passe de continuer à sensiblement se complexifier dans les années à venir. Il sera intéressant de voir ce que proposeront les spécifications glTF 3.0 et les nouveaux formats de fichiers voués à émerger en fonction de nos besoins futurs.</p>
+</div></div>
+<div class=pagination>
+<div class=pagination__title>
+<span class=pagination__title-h>Lire d'autres articles</span>
+<hr>
+</div>
+<div class=pagination__buttons>
+<span class="button previous">
+<a href=localhost/posts/aframe-intro/>
+<span class=button__icon>←</span>
+<span class=button__text>Introduction à A-FRAME</span>
+</a>
+</span>
+<span class="button next">
+<a href=localhost/posts/webxr/>
+<span class=button__text>WebXR, le futur de la réalité virtuelle?</span>
+<span class=button__icon>→</span>
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class=copyright>
+<span>© 2022 Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span>
+</div>
+</div>
+</footer>
+<script src=localhost/assets/main.js></script>
+<script src=localhost/assets/prism.js></script>
+</div>
+</body>
+</html>
