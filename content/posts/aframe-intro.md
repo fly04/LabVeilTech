@@ -52,7 +52,7 @@ Il est ensuite possible d'ajouter toute sorte d'objets 3D dans celle-ci, commen�
 
 ```
 
-![](https://github.com/fly04/LabVeilTech/blob/main/public/images/1.png?raw=true)
+![](https://fly04.github.io/images/1.png)
 
 
 
@@ -65,7 +65,7 @@ Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c'est-
 </a-scene>
 ```
 
- ![](https://github.com/fly04/LabVeilTech/blob/main/public/images/2.png?raw=true)
+ ![](https://fly04.github.io/images/2.png)
 
 
 
@@ -100,7 +100,7 @@ Il existe plusieurs types de lumières, par exemple d'ambiance ou directionnelle
 </a-scene>
 ```
 
-![](https://github.com/fly04/LabVeilTech/blob/main/public/images/4.png?raw=true)
+![](https://fly04.github.io/images/3.png)
 
 
 
@@ -133,7 +133,7 @@ S'il est possible de créer des cubes, sphères, cylindres et autres formes géo
 
 
 
-![](https://github.com/fly04/LabVeilTech/blob/main/public/images/5.png?raw=true)
+![](https://fly04.github.io/images/4.png)
 
 
 
@@ -168,7 +168,7 @@ Il est possible d'appliquer à nos éléments des matériaux. En plus de spécif
 </a-scene>
 ```
 
-![](https://github.com/fly04/LabVeilTech/blob/main/public/images/6.png?raw=true)
+![](https://fly04.github.io/images/5.png)
 
 
 

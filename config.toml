@@ -63,7 +63,7 @@ categories = [ "Études de cas", "Tutoriels", "Technologies", "Outils", "Hardwar
 
     [languages.en.params.logo]
       logoText = "Louka Najjar"
-      logoHomeLink = "/"
+      logoHomeLink = "/LabVeilTech"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
