@@ -52,7 +52,7 @@ Il est ensuite possible d'ajouter toute sorte d'objets 3D dans celle-ci, commen�
 
 ```
 
-![](https://fly04.github.io/images/1.png)
+![](https://fly04.github.io/LabVeilTech/images/1.png)
 
 
 
@@ -65,7 +65,7 @@ Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c'est-
 </a-scene>
 ```
 
- ![](https://fly04.github.io/images/2.png)
+ ![](https://fly04.github.io/LabVeilTech/images/2.png)
 
 
 
@@ -100,7 +100,7 @@ Il existe plusieurs types de lumières, par exemple d'ambiance ou directionnelle
 </a-scene>
 ```
 
-![](https://fly04.github.io/images/3.png)
+![](https://fly04.github.io/LabVeilTech/images/3.png)
 
 
 
@@ -133,7 +133,7 @@ S'il est possible de créer des cubes, sphères, cylindres et autres formes géo
 
 
 
-![](https://fly04.github.io/images/4.png)
+![](https://fly04.github.io/LabVeilTech/images/4.png)
 
 
 
@@ -168,7 +168,7 @@ Il est possible d'appliquer à nos éléments des matériaux. En plus de spécif
 </a-scene>
 ```
 
-![](https://fly04.github.io/images/5.png)
+![](https://fly04.github.io/LabVeilTech/images/5.png)
 
 
 
@@ -184,7 +184,7 @@ cylinder.setAttribute('position', '3 1 0');
 scene.appendChild(cylinder);
 ```
 
-![](https://fly04.github.io/images/6.png)
+![](https://fly04.github.io/LabVeilTech/images/6.png)
 
 
 Finalement, il est possible d'animer nos objets avec une balise dédiée. En effet, la balise <a-animation> peut se placer en tant qu'enfant d'un élément existant et propose des attributs permettant de spécifier les variables d'animation classiques tels que la durée, le départ et l'arrivée, l'attribut animé, la courbe accélération, etc...).
