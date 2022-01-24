@@ -7,20 +7,20 @@
 A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela représente un certain avantage pour ceux étant familiers avec le développement web car les mêmes concepts sont mobilisés.">
 <meta name=keywords content=",">
 <meta name=robots content="noodp">
-<link rel=canonical href=https://fly04.github.io/LabVeilTech/posts/aframe-intro/>
-<link rel=stylesheet href=https://fly04.github.io/LabVeilTech/assets/style.css>
-<link rel=stylesheet href=https://fly04.github.io/LabVeilTech/assets/green.css>
-<link rel=apple-touch-icon href=https://fly04.github.io/LabVeilTech/img/apple-touch-icon-192x192.png>
-<link rel="shortcut icon" href=https://fly04.github.io/LabVeilTech/img/favicon/green.png>
+<link rel=canonical href=fly04.github.io/LabVeilTech/posts/aframe-intro/>
+<link rel=stylesheet href=fly04.github.io/LabVeilTech/assets/style.css>
+<link rel=stylesheet href=fly04.github.io/LabVeilTech/assets/green.css>
+<link rel=apple-touch-icon href=fly04.github.io/LabVeilTech/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=fly04.github.io/LabVeilTech/img/favicon/green.png>
 <meta name=twitter:card content="summary">
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Introduction à A-FRAME">
 <meta property="og:description" content="Comment créer une expérience de réalité virtuelle à destination des navigateurs et comment fonctionnent-elles? C&amp;rsquo;est à ces question que je vais tenter dans le présent article de trouver des pistes de réponses à travers une expérimentation avec le framework A-FRAME.
 A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela représente un certain avantage pour ceux étant familiers avec le développement web car les mêmes concepts sont mobilisés.">
-<meta property="og:url" content="https://fly04.github.io/LabVeilTech/posts/aframe-intro/">
+<meta property="og:url" content="fly04.github.io/LabVeilTech/posts/aframe-intro/">
 <meta property="og:site_name" content="Louka Najjar">
-<meta property="og:image" content="https://fly04.github.io/LabVeilTech">
+<meta property="og:image" content="fly04.github.io/LabVeilTech">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 <meta property="article:published_time" content="2022-01-24 16:25:23 +0100 +0100">
@@ -40,25 +40,25 @@ Louka Najjar
 </div>
 <nav class=menu>
 <ul class="menu__inner menu__inner--desktop">
-<li><a href=/LabVeilTech/pages/about>À propos</a></li>
+<li><a href=fly04.github.io/LabVeilTech/pages/about>À propos</a></li>
 </ul>
 <ul class="menu__inner menu__inner--mobile">
-<li><a href=/LabVeilTech/pages/about>À propos</a></li>
+<li><a href=fly04.github.io/LabVeilTech/pages/about>À propos</a></li>
 </ul>
 </nav>
 </header>
 <div class=content>
 <div class=post>
 <h1 class=post-title>
-<a href=https://fly04.github.io/LabVeilTech/posts/aframe-intro/>Introduction à A-FRAME</a></h1>
+<a href=fly04.github.io/LabVeilTech/posts/aframe-intro/>Introduction à A-FRAME</a></h1>
 <div class=post-meta>
 <span class=post-date>
 2022-01-24
 </span>
 </div>
 <span class=post-tags>
-#<a href=https://fly04.github.io/LabVeilTech/tags/></a>&nbsp;
-#<a href=https://fly04.github.io/LabVeilTech/tags/></a>&nbsp;
+#<a href=fly04.github.io/LabVeilTech/tags/></a>&nbsp;
+#<a href=fly04.github.io/LabVeilTech/tags/></a>&nbsp;
 </span>
 <div class=post-content><div>
 <p>Comment créer une expérience de réalité virtuelle à destination des navigateurs et comment fonctionnent-elles? C&rsquo;est à ces question que je vais tenter dans le présent article de trouver des pistes de réponses à travers une expérimentation avec le framework A-FRAME.</p>
@@ -84,13 +84,13 @@ Louka Najjar
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
 
-</code></pre></div><p><img src=https://fly04.github.io/images/1.png alt></p>
+</code></pre></div><p><img src="https://github.com/fly04/LabVeilTech/blob/main/public/images/1.png?raw=true" alt></p>
 <p>Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c&rsquo;est-à-dire le fond qu&rsquo;aura notre scène 3D. L&rsquo;élément va prendre un attribut color, ici un bleu clair.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-sky</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#DBF3FF&#34;</span>&gt;&lt;/<span style=color:#f92672>a-sky</span>&gt;
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
-</code></pre></div><p><img src=https://fly04.github.io/images/2.png alt></p>
+</code></pre></div><p><img src="https://github.com/fly04/LabVeilTech/blob/main/public/images/2.png?raw=true" alt></p>
 <p>À ce stade nous avons une scène qui contient un cube et une skybox. En réalité, A-FRAME intègre également un caméra et des lumières par défaut sans lesquels il nous serait impossible de visualiser la scène. Voyons comment définir une caméra et une lumière customisées.</p>
 <p>Pour la caméra, il suffit simplement d&rsquo;ajouter à notre scène un élément . Celle-ci prendra comme attribut une position depuis laquelle on pourra observer la scène.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
@@ -111,7 +111,7 @@ Louka Najjar
 	&lt;<span style=color:#f92672>a-sky</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#dbf3ff&#34;</span>&gt;&lt;/<span style=color:#f92672>a-sky</span>&gt;
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
-</code></pre></div><p><img src=https://fly04.github.io/images/3.png alt></p>
+</code></pre></div><p><img src="https://github.com/fly04/LabVeilTech/blob/main/public/images/4.png?raw=true" alt></p>
 <p>S&rsquo;il est possible de créer des cubes, sphères, cylindres et autres formes géométriques définies, A-FRAME permet également de créer des formes plus complexes à l&rsquo;aide de la balise .</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-light</span>
@@ -135,7 +135,7 @@ Louka Najjar
 	&lt;/<span style=color:#f92672>a-entity</span>&gt;
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
-</code></pre></div><p><img src=https://fly04.github.io/images/4.png alt></p>
+</code></pre></div><p><img src="https://github.com/fly04/LabVeilTech/blob/main/public/images/5.png?raw=true" alt></p>
 <p>Il est possible d&rsquo;appliquer à nos éléments des matériaux. En plus de spécifier une couleur, les matériaux permettent de pouvoir définir comment celle-ci reflète la lumière et à quel point le matériau est métallique.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-light</span>
@@ -163,7 +163,7 @@ Louka Najjar
 	&lt;/<span style=color:#f92672>a-entity</span>&gt;
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
-</code></pre></div><p><img src=https://fly04.github.io/images/5.png alt></p>
+</code></pre></div><p><img src="https://github.com/fly04/LabVeilTech/blob/main/public/images/6.png?raw=true" alt></p>
 <p>Dans cet exemple, les deux formes géométriques que nous avons ont été créées directement via des balises HTML. A-FRAME permet également de faire cela à travers du JavaScript.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>let</span> <span style=color:#a6e22e>scene</span> <span style=color:#f92672>=</span> document.<span style=color:#a6e22e>querySelector</span>(<span style=color:#e6db74>&#39;a-scene&#39;</span>);
 <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>cylinder</span> <span style=color:#f92672>=</span> document.<span style=color:#a6e22e>createElement</span>(<span style=color:#e6db74>&#39;a-cylinder&#39;</span>);
@@ -195,7 +195,7 @@ Louka Najjar
 </div>
 <div class=pagination__buttons>
 <span class="button next">
-<a href=https://fly04.github.io/LabVeilTech/posts/gltf/>
+<a href=fly04.github.io/LabVeilTech/posts/gltf/>
 <span class=button__text>glTF, aka JPEG de la 3D</span>
 <span class=button__icon>→</span>
 </a>
@@ -212,8 +212,8 @@ Louka Najjar
 </div>
 </div>
 </footer>
-<script src=https://fly04.github.io/LabVeilTech/assets/main.js></script>
-<script src=https://fly04.github.io/LabVeilTech/assets/prism.js></script>
+<script src=fly04.github.io/LabVeilTech/assets/main.js></script>
+<script src=fly04.github.io/LabVeilTech/assets/prism.js></script>
 </div>
 </body>
 </html>
