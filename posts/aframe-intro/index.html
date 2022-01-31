@@ -40,9 +40,11 @@ Louka Najjar
 </div>
 <nav class=menu>
 <ul class="menu__inner menu__inner--desktop">
+<li><a href=/LabVeilTech/>Articles</a></li>
 <li><a href=/LabVeilTech/pages/about>À propos</a></li>
 </ul>
 <ul class="menu__inner menu__inner--mobile">
+<li><a href=/LabVeilTech/>Articles</a></li>
 <li><a href=/LabVeilTech/pages/about>À propos</a></li>
 </ul>
 </nav>
@@ -57,8 +59,10 @@ Louka Najjar
 </span>
 </div>
 <span class=post-tags>
-#<a href=https://fly04.github.io/LabVeilTech/tags/></a>&nbsp;
-#<a href=https://fly04.github.io/LabVeilTech/tags/></a>&nbsp;
+#<a href=https://fly04.github.io/LabVeilTech/tags/webxr/>WebXR</a>&nbsp;
+#<a href=https://fly04.github.io/LabVeilTech/tags/vr/>VR</a>&nbsp;
+#<a href=https://fly04.github.io/LabVeilTech/tags/a-frame/>A-FRAME</a>&nbsp;
+#<a href=https://fly04.github.io/LabVeilTech/tags/dev/>Dev</a>&nbsp;
 </span>
 <div class=post-content><div>
 <p>Comment créer une expérience de réalité virtuelle à destination des navigateurs et comment fonctionnent-elles? C&rsquo;est à ces question que je vais tenter dans le présent article de trouver des pistes de réponses à travers une expérimentation avec le framework A-FRAME.</p>
@@ -79,26 +83,26 @@ Louka Najjar
     &lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;/<span style=color:#f92672>a-scene</span>&gt;
 &lt;/<span style=color:#f92672>body</span>&gt;
-</code></pre></div><p>Il est ensuite possible d&rsquo;ajouter toute sorte d&rsquo;objets 3D dans celle-ci, commençons par un cube, soit un élément . Les éléments d&rsquo;A-FRAME, tous comme les différents éléments HTML peuvent prendre un certain nombre d&rsquo;attributs. Ici une couleur, une position et une rotation.</p>
+</code></pre></div><p>Il est ensuite possible d&rsquo;ajouter toute sorte d&rsquo;objets 3D dans celle-ci, commençons par un cube, soit un élément <code>&lt;a-box></code>. Les éléments d&rsquo;A-FRAME, tous comme les différents éléments HTML peuvent prendre un certain nombre d&rsquo;attributs. Ici une couleur, une position et une rotation.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
 
 </code></pre></div><p><img src=https://fly04.github.io/LabVeilTech/images/1.png alt></p>
-<p>Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c&rsquo;est-à-dire le fond qu&rsquo;aura notre scène 3D. L&rsquo;élément va prendre un attribut color, ici un bleu clair.</p>
+<p>Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c&rsquo;est-à-dire le fond qu&rsquo;aura notre scène 3D. L&rsquo;élément <code>&lt;a-sky></code> va prendre un attribut color, ici un bleu clair.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-sky</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#DBF3FF&#34;</span>&gt;&lt;/<span style=color:#f92672>a-sky</span>&gt;
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
 </code></pre></div><p><img src=https://fly04.github.io/LabVeilTech/images/2.png alt></p>
 <p>À ce stade nous avons une scène qui contient un cube et une skybox. En réalité, A-FRAME intègre également un caméra et des lumières par défaut sans lesquels il nous serait impossible de visualiser la scène. Voyons comment définir une caméra et une lumière customisées.</p>
-<p>Pour la caméra, il suffit simplement d&rsquo;ajouter à notre scène un élément . Celle-ci prendra comme attribut une position depuis laquelle on pourra observer la scène.</p>
+<p>Pour la caméra, il suffit simplement d&rsquo;ajouter à notre scène un élément <code>&lt;a-camera></code>. Celle-ci prendra comme attribut une position depuis laquelle on pourra observer la scène.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-camera</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 4&#34;</span>&gt; &lt;/<span style=color:#f92672>a-camera</span>&gt;
 	&lt;<span style=color:#f92672>a-sky</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#dbf3ff&#34;</span>&gt;&lt;/<span style=color:#f92672>a-sky</span>&gt;
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
-</code></pre></div><p>Il existe plusieurs types de lumières, par exemple d&rsquo;ambiance ou directionnelle. Ici, on utilisera une lumière directionnelle, placée sur la gauche de notre cube. En plus des attributs que nous avons déjà vu, aura besoin d&rsquo;une couleur, d&rsquo;une intensité et donc comme indiqué précédemment d&rsquo;un type de lumière.</p>
+</code></pre></div><p>Il existe plusieurs types de lumières, par exemple d&rsquo;ambiance ou directionnelle. Ici, on utilisera une lumière directionnelle, placée sur la gauche de notre cube. En plus des attributs que nous avons déjà vu, <code>&lt;a-light></code> aura besoin d&rsquo;une couleur, d&rsquo;une intensité et donc comme indiqué précédemment d&rsquo;un type de lumière.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-light</span>
 		<span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;directional&#34;</span>
@@ -112,7 +116,7 @@ Louka Najjar
 	&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span>&gt; &lt;/<span style=color:#f92672>a-box</span>&gt;
 &lt;/<span style=color:#f92672>a-scene</span>&gt;
 </code></pre></div><p><img src=https://fly04.github.io/LabVeilTech/images/3.png alt></p>
-<p>S&rsquo;il est possible de créer des cubes, sphères, cylindres et autres formes géométriques définies, A-FRAME permet également de créer des formes plus complexes à l&rsquo;aide de la balise .</p>
+<p>S&rsquo;il est possible de créer des cubes, sphères, cylindres et autres formes géométriques définies, A-FRAME permet également de créer des formes plus complexes à l&rsquo;aide de la balise <code>&lt;a-entity></code>.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-scene</span>&gt;
 	&lt;<span style=color:#f92672>a-light</span>
 		<span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;directional&#34;</span>
@@ -173,7 +177,7 @@ Louka Najjar
 <span style=color:#a6e22e>cylinder</span>.<span style=color:#a6e22e>setAttribute</span>(<span style=color:#e6db74>&#39;position&#39;</span>, <span style=color:#e6db74>&#39;3 1 0&#39;</span>);
 <span style=color:#a6e22e>scene</span>.<span style=color:#a6e22e>appendChild</span>(<span style=color:#a6e22e>cylinder</span>);
 </code></pre></div><p><img src=https://fly04.github.io/LabVeilTech/images/6.png alt></p>
-<p>Finalement, il est possible d&rsquo;animer nos objets avec une balise dédiée. En effet, la balise peut se placer en tant qu&rsquo;enfant d&rsquo;un élément existant et propose des attributs permettant de spécifier les variables d&rsquo;animation classiques tels que la durée, le départ et l&rsquo;arrivée, l&rsquo;attribut animé, la courbe accélération, etc&mldr;).</p>
+<p>Finalement, il est possible d&rsquo;animer nos objets avec une balise dédiée. En effet, la balise <code>&lt;a-animation></code> peut se placer en tant qu&rsquo;enfant d&rsquo;un élément existant et propose des attributs permettant de spécifier les variables d&rsquo;animation classiques (tels que la durée, le départ et l&rsquo;arrivée, l&rsquo;attribut animé, la courbe accélération, etc&mldr;).</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>a-box</span> <span style=color:#a6e22e>color</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#0095DD&#34;</span> <span style=color:#a6e22e>rotation</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;20 40 0&#34;</span> <span style=color:#a6e22e>position</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 1 0&#34;</span>&gt;
 	&lt;<span style=color:#f92672>a-animation</span>
 		<span style=color:#a6e22e>attribute</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;rotation&#34;</span>
