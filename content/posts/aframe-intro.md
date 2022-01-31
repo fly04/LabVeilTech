@@ -43,7 +43,7 @@ Le premier concept important à appréhender est celui de scène. La scène est 
 
  
 
-Il est ensuite possible d'ajouter toute sorte d'objets 3D dans celle-ci, commençons par un cube, soit un élément <a-box>. Les éléments d'A-FRAME, tous comme les différents éléments HTML peuvent prendre un certain nombre d'attributs. Ici une couleur, une position et une rotation.
+Il est ensuite possible d'ajouter toute sorte d'objets 3D dans celle-ci, commençons par un cube, soit un élément `<a-box>`. Les éléments d'A-FRAME, tous comme les différents éléments HTML peuvent prendre un certain nombre d'attributs. Ici une couleur, une position et une rotation.
 
 ```html
 <a-scene>
@@ -56,7 +56,7 @@ Il est ensuite possible d'ajouter toute sorte d'objets 3D dans celle-ci, commen�
 
 
 
-Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c'est-à-dire le fond qu'aura notre scène 3D. L'élément <a-sky> va prendre un attribut color, ici un bleu clair.
+Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c'est-à-dire le fond qu'aura notre scène 3D. L'élément `<a-sky>` va prendre un attribut color, ici un bleu clair.
 
 ```html
 <a-scene>
@@ -71,7 +71,7 @@ Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c'est-
 
 À ce stade nous avons une scène qui contient un cube et une skybox. En réalité, A-FRAME intègre également un caméra et des lumières par défaut sans lesquels il nous serait impossible de visualiser la scène. Voyons comment définir une caméra et une lumière customisées.
 
-Pour la caméra, il suffit simplement d'ajouter à notre scène un élément <a-camera>. Celle-ci prendra comme attribut une position depuis laquelle on pourra observer la scène.
+Pour la caméra, il suffit simplement d'ajouter à notre scène un élément `<a-camera>`. Celle-ci prendra comme attribut une position depuis laquelle on pourra observer la scène.
 
 ```html
 <a-scene>
@@ -83,7 +83,7 @@ Pour la caméra, il suffit simplement d'ajouter à notre scène un élément <a-
 
 
 
-Il existe plusieurs types de lumières, par exemple d'ambiance ou directionnelle. Ici, on utilisera une lumière directionnelle, placée sur la gauche de notre cube. En plus des attributs que nous avons déjà vu, <a-light> aura besoin d'une couleur, d'une intensité et donc comme indiqué précédemment d'un type de lumière.
+Il existe plusieurs types de lumières, par exemple d'ambiance ou directionnelle. Ici, on utilisera une lumière directionnelle, placée sur la gauche de notre cube. En plus des attributs que nous avons déjà vu, `<a-light>` aura besoin d'une couleur, d'une intensité et donc comme indiqué précédemment d'un type de lumière.
 
 ```html
 <a-scene>
@@ -104,7 +104,7 @@ Il existe plusieurs types de lumières, par exemple d'ambiance ou directionnelle
 
 
 
-S'il est possible de créer des cubes, sphères, cylindres et autres formes géométriques définies, A-FRAME permet également de créer des formes plus complexes à l'aide de la balise <a-entity>.
+S'il est possible de créer des cubes, sphères, cylindres et autres formes géométriques définies, A-FRAME permet également de créer des formes plus complexes à l'aide de la balise `<a-entity>`.
 
 ```html
 <a-scene>
@@ -187,7 +187,7 @@ scene.appendChild(cylinder);
 ![](https://fly04.github.io/LabVeilTech/images/6.png)
 
 
-Finalement, il est possible d'animer nos objets avec une balise dédiée. En effet, la balise <a-animation> peut se placer en tant qu'enfant d'un élément existant et propose des attributs permettant de spécifier les variables d'animation classiques tels que la durée, le départ et l'arrivée, l'attribut animé, la courbe accélération, etc...).
+Finalement, il est possible d'animer nos objets avec une balise dédiée. En effet, la balise `<a-animation>` peut se placer en tant qu'enfant d'un élément existant et propose des attributs permettant de spécifier les variables d'animation classiques (tels que la durée, le départ et l'arrivée, l'attribut animé, la courbe accélération, etc...).
 
 
 
