@@ -2,19 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Louka Najjar</title>
-    <link>localhost/pages/</link>
+    <link>https://fly04.github.io/LabVeilTech/pages/</link>
     <description>Recent content in Pages on Louka Najjar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ch-fr</language>
-    <lastBuildDate>Mon, 24 Jan 2022 15:46:07 +0100</lastBuildDate><atom:link href="localhost/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jan 2022 15:46:07 +0100</lastBuildDate><atom:link href="https://fly04.github.io/LabVeilTech/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>localhost/pages/about/</link>
+      <title>À propos</title>
+      <link>https://fly04.github.io/LabVeilTech/pages/about/</link>
       <pubDate>Mon, 24 Jan 2022 15:46:07 +0100</pubDate>
       
-      <guid>localhost/pages/about/</guid>
-      <description>asdmaskdmasdmasmd</description>
-      <content>&lt;p&gt;asdmaskdmasdmasmd&lt;/p&gt;
+      <guid>https://fly04.github.io/LabVeilTech/pages/about/</guid>
+      <description>Qui suis-je? Je m&amp;rsquo;appelle Luka, je suis un étudiant en Ingénierie des Médias à la Haute-École d&amp;rsquo;Ingénierie et de Gestion d&amp;rsquo;Yverdon-les-Bains. Dans ma formation, trois axes sont étudiés. Le premier est celui de la communication et du marketing, cela se traduit à travers du management de contenu, et comme son nom l&amp;rsquo;indique, de la communcation et du marketing digital. Le second axe concerne la gestion et le management où l&amp;rsquo;on traite de gestion de projet, de modèles d&amp;rsquo;affaire et de stratégie.</description>
+      <content>&lt;h1 id=&#34;qui-suis-je&#34;&gt;Qui suis-je?&lt;/h1&gt;
+&lt;p&gt;Je m&amp;rsquo;appelle Luka, je suis un étudiant en &lt;strong&gt;Ingénierie des Médias&lt;/strong&gt; à la Haute-École d&amp;rsquo;Ingénierie et de Gestion d&amp;rsquo;Yverdon-les-Bains.
+Dans ma formation, trois axes sont étudiés. Le premier est celui de la &lt;strong&gt;communication et du marketing&lt;/strong&gt;, cela se traduit à travers du management de contenu, et comme son nom l&amp;rsquo;indique, de la communcation et du marketing digital. Le second axe concerne la &lt;strong&gt;gestion et le management&lt;/strong&gt; où l&amp;rsquo;on traite de gestion de projet, de modèles d&amp;rsquo;affaire et de stratégie. Le dernier, mais pas des moindres, c&amp;rsquo;est l&amp;rsquo;axe du &lt;strong&gt;dévelopement et de l&amp;rsquo;expérience utilisateur&lt;/strong&gt;, et ce sont personnellement ces domaines là qui m&amp;rsquo;intéressent le plus.&lt;/p&gt;
+&lt;p&gt;Ayant grandi avec &lt;strong&gt;Internet et les jeux-vidéos&lt;/strong&gt;, le développement et les nouvelles technologies m&amp;rsquo;ont toujours passionné. Sur le présent blog, je documente la veille que j&amp;rsquo;effectue sur l&amp;rsquo;une des facettes de cette passion, &lt;strong&gt;la réalité virtuelle&lt;/strong&gt;. Comme je vous le raconte dans l&amp;rsquo;introduction de cet &lt;a href=&#34;https://fly04.github.io/LabVeilTech/posts/origines-vr/&#34;&gt;article&lt;/a&gt;, c&amp;rsquo;est une technologie qui m&amp;rsquo;a toujours fait rêvé pour diverses raisons, et vis-à-vis de laquelle j&amp;rsquo;ai suis très curieux quant à son futur et ses éventuelles futures utilisations.&lt;/p&gt;
+&lt;h1 id=&#34;mon-ikigai&#34;&gt;Mon Ikigai&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://fly04.github.io/LabVeilTech/images/ikigai.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     

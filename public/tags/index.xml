@@ -2,9 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Louka Najjar</title>
-    <link>localhost/tags/</link>
+    <link>https://fly04.github.io/LabVeilTech/tags/</link>
     <description>Recent content in Tags on Louka Najjar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ch-fr</language><atom:link href="localhost/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ch-fr</language>
+    <lastBuildDate>Mon, 24 Jan 2022 16:25:23 +0100</lastBuildDate><atom:link href="https://fly04.github.io/LabVeilTech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A-FRAME</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/a-frame/</link>
+      <pubDate>Mon, 24 Jan 2022 16:25:23 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/a-frame/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/dev/</link>
+      <pubDate>Mon, 24 Jan 2022 16:25:23 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/dev/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>VR</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/vr/</link>
+      <pubDate>Mon, 24 Jan 2022 16:25:23 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/vr/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>WebXR</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/webxr/</link>
+      <pubDate>Mon, 24 Jan 2022 16:25:23 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/webxr/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>AR</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/ar/</link>
+      <pubDate>Mon, 24 Jan 2022 16:20:07 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/ar/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Ressources</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/ressources/</link>
+      <pubDate>Mon, 24 Jan 2022 16:20:07 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/ressources/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/web/</link>
+      <pubDate>Mon, 24 Jan 2022 16:13:35 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/web/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Historique</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/historique/</link>
+      <pubDate>Mon, 24 Jan 2022 15:36:59 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/historique/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Jeux-vidéos</title>
+      <link>https://fly04.github.io/LabVeilTech/tags/jeux-vid%C3%A9os/</link>
+      <pubDate>Mon, 24 Jan 2022 15:36:59 +0100</pubDate>
+      
+      <guid>https://fly04.github.io/LabVeilTech/tags/jeux-vid%C3%A9os/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>

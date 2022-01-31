@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   
-    <title>Aframe Intro :: Louka Najjar</title>
+    <title>Introduction à A-FRAME :: Louka Najjar</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,23 @@
 A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela représente un certain avantage pour ceux étant familiers avec le développement web car les mêmes concepts sont mobilisés." />
 <meta name="keywords" content=", " />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="localhost/posts/aframe-intro/" />
+<link rel="canonical" href="https://fly04.github.io/LabVeilTech/posts/aframe-intro/" />
 
 
 
 
-<link rel="stylesheet" href="localhost/assets/style.css">
+<link rel="stylesheet" href="https://fly04.github.io/LabVeilTech/assets/style.css">
 
-  <link rel="stylesheet" href="localhost/assets/green.css">
-
-
+  <link rel="stylesheet" href="https://fly04.github.io/LabVeilTech/assets/green.css">
 
 
 
 
-<link rel="apple-touch-icon" href="localhost/img/apple-touch-icon-192x192.png">
 
-  <link rel="shortcut icon" href="localhost/img/favicon/green.png">
+
+<link rel="apple-touch-icon" href="https://fly04.github.io/LabVeilTech/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://fly04.github.io/LabVeilTech/img/favicon/green.png">
 
 
 
@@ -36,20 +36,19 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Aframe Intro">
+<meta property="og:title" content="Introduction à A-FRAME">
 <meta property="og:description" content="Comment créer une expérience de réalité virtuelle à destination des navigateurs et comment fonctionnent-elles? C&amp;rsquo;est à ces question que je vais tenter dans le présent article de trouver des pistes de réponses à travers une expérimentation avec le framework A-FRAME.
 A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela représente un certain avantage pour ceux étant familiers avec le développement web car les mêmes concepts sont mobilisés." />
-<meta property="og:url" content="localhost/posts/aframe-intro/" />
+<meta property="og:url" content="https://fly04.github.io/LabVeilTech/posts/aframe-intro/" />
 <meta property="og:site_name" content="Louka Najjar" />
 
-  <meta property="og:image" content="localhost">
+  <meta property="og:image" content="https://fly04.github.io/LabVeilTech">
 
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
 
   <meta property="article:published_time" content="2022-01-24 16:25:23 &#43;0100 CET" />
-
 
 
 
@@ -70,7 +69,7 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
   <header class="header">
   <div class="header__inner">
     <div class="header__logo">
-      <a href="/">
+      <a href="/LabVeilTech">
   <div class="logo">
     Louka Najjar
   </div>
@@ -87,7 +86,11 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
     
       
         
-          <li><a href="localhost/pages/about">À propos</a></li>
+          <li><a href="/LabVeilTech/">Articles</a></li>
+        
+      
+        
+          <li><a href="/LabVeilTech/pages/about">À propos</a></li>
         
       
       
@@ -99,7 +102,11 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="localhost/pages/about">À propos</a></li>
+        <li><a href="/LabVeilTech/">Articles</a></li>
+      
+    
+      
+        <li><a href="/LabVeilTech/pages/about">À propos</a></li>
       
     
     
@@ -114,7 +121,7 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
     
 <div class="post">
   <h1 class="post-title">
-    <a href="localhost/posts/aframe-intro/">Aframe Intro</a></h1>
+    <a href="https://fly04.github.io/LabVeilTech/posts/aframe-intro/">Introduction à A-FRAME</a></h1>
   <div class="post-meta">
     
       <span class="post-date">
@@ -129,9 +136,13 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
   
   <span class="post-tags">
     
-    #<a href="localhost/tags/"></a>&nbsp;
+    #<a href="https://fly04.github.io/LabVeilTech/tags/webxr/">WebXR</a>&nbsp;
     
-    #<a href="localhost/tags/"></a>&nbsp;
+    #<a href="https://fly04.github.io/LabVeilTech/tags/vr/">VR</a>&nbsp;
+    
+    #<a href="https://fly04.github.io/LabVeilTech/tags/a-frame/">A-FRAME</a>&nbsp;
+    
+    #<a href="https://fly04.github.io/LabVeilTech/tags/dev/">Dev</a>&nbsp;
     
   </span>
   
@@ -159,26 +170,26 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
     &lt;<span style="color:#f92672">a-scene</span>&gt;
 	&lt;/<span style="color:#f92672">a-scene</span>&gt;
 &lt;/<span style="color:#f92672">body</span>&gt;
-</code></pre></div><p>Il est ensuite possible d&rsquo;ajouter toute sorte d&rsquo;objets 3D dans celle-ci, commençons par un cube, soit un élément <!-- raw HTML omitted -->. Les éléments d&rsquo;A-FRAME, tous comme les différents éléments HTML peuvent prendre un certain nombre d&rsquo;attributs. Ici une couleur, une position et une rotation.</p>
+</code></pre></div><p>Il est ensuite possible d&rsquo;ajouter toute sorte d&rsquo;objets 3D dans celle-ci, commençons par un cube, soit un élément <code>&lt;a-box&gt;</code>. Les éléments d&rsquo;A-FRAME, tous comme les différents éléments HTML peuvent prendre un certain nombre d&rsquo;attributs. Ici une couleur, une position et une rotation.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a-scene</span>&gt;
 	&lt;<span style="color:#f92672">a-box</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#0095DD&#34;</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 0&#34;</span> <span style="color:#a6e22e">rotation</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20 40 0&#34;</span>&gt; &lt;/<span style="color:#f92672">a-box</span>&gt;
 &lt;/<span style="color:#f92672">a-scene</span>&gt;
 
-</code></pre></div><p><img src="/images/1.png" alt=""></p>
-<p>Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c&rsquo;est-à-dire le fond qu&rsquo;aura notre scène 3D. L&rsquo;élément <!-- raw HTML omitted --> va prendre un attribut color, ici un bleu clair.</p>
+</code></pre></div><p><img src="https://fly04.github.io/LabVeilTech/images/1.png" alt=""></p>
+<p>Notre cube semble alors flotter dans un vide blanc. Rajoutons une skybox, c&rsquo;est-à-dire le fond qu&rsquo;aura notre scène 3D. L&rsquo;élément <code>&lt;a-sky&gt;</code> va prendre un attribut color, ici un bleu clair.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a-scene</span>&gt;
 	&lt;<span style="color:#f92672">a-sky</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#DBF3FF&#34;</span>&gt;&lt;/<span style="color:#f92672">a-sky</span>&gt;
 	&lt;<span style="color:#f92672">a-box</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#0095DD&#34;</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 0&#34;</span> <span style="color:#a6e22e">rotation</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20 40 0&#34;</span>&gt; &lt;/<span style="color:#f92672">a-box</span>&gt;
 &lt;/<span style="color:#f92672">a-scene</span>&gt;
-</code></pre></div><p>[image 2]</p>
+</code></pre></div><p><img src="https://fly04.github.io/LabVeilTech/images/2.png" alt=""></p>
 <p>À ce stade nous avons une scène qui contient un cube et une skybox. En réalité, A-FRAME intègre également un caméra et des lumières par défaut sans lesquels il nous serait impossible de visualiser la scène. Voyons comment définir une caméra et une lumière customisées.</p>
-<p>Pour la caméra, il suffit simplement d&rsquo;ajouter à notre scène un élément <!-- raw HTML omitted -->. Celle-ci prendra comme attribut une position depuis laquelle on pourra observer la scène.</p>
+<p>Pour la caméra, il suffit simplement d&rsquo;ajouter à notre scène un élément <code>&lt;a-camera&gt;</code>. Celle-ci prendra comme attribut une position depuis laquelle on pourra observer la scène.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a-scene</span>&gt;
 	&lt;<span style="color:#f92672">a-camera</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 4&#34;</span>&gt; &lt;/<span style="color:#f92672">a-camera</span>&gt;
 	&lt;<span style="color:#f92672">a-sky</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#dbf3ff&#34;</span>&gt;&lt;/<span style="color:#f92672">a-sky</span>&gt;
 	&lt;<span style="color:#f92672">a-box</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#0095DD&#34;</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 0&#34;</span> <span style="color:#a6e22e">rotation</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20 40 0&#34;</span>&gt; &lt;/<span style="color:#f92672">a-box</span>&gt;
 &lt;/<span style="color:#f92672">a-scene</span>&gt;
-</code></pre></div><p>Il existe plusieurs types de lumières, par exemple d&rsquo;ambiance ou directionnelle. Ici, on utilisera une lumière directionnelle, placée sur la gauche de notre cube. En plus des attributs que nous avons déjà vu, <!-- raw HTML omitted --> aura besoin d&rsquo;une couleur, d&rsquo;une intensité et donc comme indiqué précédemment d&rsquo;un type de lumière.</p>
+</code></pre></div><p>Il existe plusieurs types de lumières, par exemple d&rsquo;ambiance ou directionnelle. Ici, on utilisera une lumière directionnelle, placée sur la gauche de notre cube. En plus des attributs que nous avons déjà vu, <code>&lt;a-light&gt;</code> aura besoin d&rsquo;une couleur, d&rsquo;une intensité et donc comme indiqué précédemment d&rsquo;un type de lumière.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a-scene</span>&gt;
 	&lt;<span style="color:#f92672">a-light</span>
 		<span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;directional&#34;</span>
@@ -191,8 +202,8 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
 	&lt;<span style="color:#f92672">a-sky</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#dbf3ff&#34;</span>&gt;&lt;/<span style="color:#f92672">a-sky</span>&gt;
 	&lt;<span style="color:#f92672">a-box</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#0095DD&#34;</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 0&#34;</span> <span style="color:#a6e22e">rotation</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20 40 0&#34;</span>&gt; &lt;/<span style="color:#f92672">a-box</span>&gt;
 &lt;/<span style="color:#f92672">a-scene</span>&gt;
-</code></pre></div><p>[image 3]</p>
-<p>S&rsquo;il est possible de créer des cubes, sphères, cylindres et autres formes géométriques définies, A-FRAME permet également de créer des formes plus complexes à l&rsquo;aide de la balise <!-- raw HTML omitted -->.</p>
+</code></pre></div><p><img src="https://fly04.github.io/LabVeilTech/images/3.png" alt=""></p>
+<p>S&rsquo;il est possible de créer des cubes, sphères, cylindres et autres formes géométriques définies, A-FRAME permet également de créer des formes plus complexes à l&rsquo;aide de la balise <code>&lt;a-entity&gt;</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a-scene</span>&gt;
 	&lt;<span style="color:#f92672">a-light</span>
 		<span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;directional&#34;</span>
@@ -215,7 +226,7 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
 	&lt;/<span style="color:#f92672">a-entity</span>&gt;
 	&lt;<span style="color:#f92672">a-box</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#0095DD&#34;</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 0&#34;</span> <span style="color:#a6e22e">rotation</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20 40 0&#34;</span>&gt; &lt;/<span style="color:#f92672">a-box</span>&gt;
 &lt;/<span style="color:#f92672">a-scene</span>&gt;
-</code></pre></div><p>[image 4]</p>
+</code></pre></div><p><img src="https://fly04.github.io/LabVeilTech/images/4.png" alt=""></p>
 <p>Il est possible d&rsquo;appliquer à nos éléments des matériaux. En plus de spécifier une couleur, les matériaux permettent de pouvoir définir comment celle-ci reflète la lumière et à quel point le matériau est métallique.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a-scene</span>&gt;
 	&lt;<span style="color:#f92672">a-light</span>
@@ -243,7 +254,7 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
 	&lt;/<span style="color:#f92672">a-entity</span>&gt;
 	&lt;<span style="color:#f92672">a-box</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#0095DD&#34;</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 0&#34;</span> <span style="color:#a6e22e">rotation</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20 40 0&#34;</span>&gt; &lt;/<span style="color:#f92672">a-box</span>&gt;
 &lt;/<span style="color:#f92672">a-scene</span>&gt;
-</code></pre></div><p>[image 5]</p>
+</code></pre></div><p><img src="https://fly04.github.io/LabVeilTech/images/5.png" alt=""></p>
 <p>Dans cet exemple, les deux formes géométriques que nous avons ont été créées directement via des balises HTML. A-FRAME permet également de faire cela à travers du JavaScript.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">scene</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;a-scene&#39;</span>);
 <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">cylinder</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;a-cylinder&#39;</span>);
@@ -252,8 +263,8 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
 <span style="color:#a6e22e">cylinder</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;radius&#39;</span>, <span style="color:#e6db74">&#39;0.75&#39;</span>);
 <span style="color:#a6e22e">cylinder</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;position&#39;</span>, <span style="color:#e6db74">&#39;3 1 0&#39;</span>);
 <span style="color:#a6e22e">scene</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">cylinder</span>);
-</code></pre></div><p>[image 6]</p>
-<p>Finalement, il est possible d&rsquo;animer nos objets avec une balise dédiée. En effet, la balise <!-- raw HTML omitted --> peut se placer en tant qu&rsquo;enfant d&rsquo;un élément existant et propose des attributs permettant de spécifier les variables d&rsquo;animation classiques tels que la durée, le départ et l&rsquo;arrivée, l&rsquo;attribut animé, la courbe accélération, etc&hellip;).</p>
+</code></pre></div><p><img src="https://fly04.github.io/LabVeilTech/images/6.png" alt=""></p>
+<p>Finalement, il est possible d&rsquo;animer nos objets avec une balise dédiée. En effet, la balise <code>&lt;a-animation&gt;</code> peut se placer en tant qu&rsquo;enfant d&rsquo;un élément existant et propose des attributs permettant de spécifier les variables d&rsquo;animation classiques (tels que la durée, le départ et l&rsquo;arrivée, l&rsquo;attribut animé, la courbe accélération, etc&hellip;).</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a-box</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#0095DD&#34;</span> <span style="color:#a6e22e">rotation</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20 40 0&#34;</span> <span style="color:#a6e22e">position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0 1 0&#34;</span>&gt;
 	&lt;<span style="color:#f92672">a-animation</span>
 		<span style="color:#a6e22e">attribute</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;rotation&#34;</span>
@@ -281,7 +292,7 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
         
         
         <span class="button next">
-            <a href="localhost/posts/gltf/">
+            <a href="https://fly04.github.io/LabVeilTech/posts/gltf/">
                 <span class="button__text">glTF, aka JPEG de la 3D</span>
                 <span class="button__icon">→</span>
             </a>
@@ -310,8 +321,8 @@ A-FRAME permet, à travers son langage à balise, de créer des scènes 3D. Cela
   </div>
 </footer>
 
-<script src="localhost/assets/main.js"></script>
-<script src="localhost/assets/prism.js"></script>
+<script src="https://fly04.github.io/LabVeilTech/assets/main.js"></script>
+<script src="https://fly04.github.io/LabVeilTech/assets/prism.js"></script>
 
 
 

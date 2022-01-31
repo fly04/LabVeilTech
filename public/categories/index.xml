@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Louka Najjar</title>
-    <link>localhost/categories/</link>
+    <link>https://fly04.github.io/LabVeilTech/categories/</link>
     <description>Recent content in Categories on Louka Najjar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ch-fr</language><atom:link href="localhost/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ch-fr</language><atom:link href="https://fly04.github.io/LabVeilTech/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

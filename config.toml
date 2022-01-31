@@ -74,3 +74,4 @@ categories = [ "Études de cas", "Tutoriels", "Technologies", "Outils", "Hardwar
         identifier = "about"
         name = "À propos"
         url = "/pages/about"
+
